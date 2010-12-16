@@ -7,11 +7,11 @@ var fs = require('./lib/fs.js');
 // Example with non-recursion.
 //
 fs.mkdir('example_dir/first/second/third/fourth/fifth', 0777, function (err) {
-    if (err) {
-        console.log(err);
-    } else {
-        console.log('Directory created');
-    }
+  if (err) {
+    console.log(err);
+  } else {
+    console.log('Directory created');
+  }
 });
 
 //
@@ -19,9 +19,9 @@ fs.mkdir('example_dir/first/second/third/fourth/fifth', 0777, function (err) {
 // right before the callback function.
 //
 fs.mkdir('example_dir/first/second/third/fourth/fifth', 0777, true, function (err) {
-    if (err) {
-        console.log(err);
-    } else {
-        console.log('Directory created');
-    }
+  if (err) {
+    console.log(err);
+  } else {
+    console.log('Directory created');
+  }
 });
