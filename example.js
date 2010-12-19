@@ -1,7 +1,7 @@
 //
 // Require our fs lib, not the original.
 //
-var fs = require('./lib/fs.js');
+var fs = require('./lib/fs');
 
 //
 // Example with non-recursion.
@@ -25,3 +25,7 @@ fs.mkdir('example_dir/first/second/third/fourth/fifth', 0777, true, function (er
     console.log('Directory created');
   }
 });
+
+//
+// Synchronous example with recursion.
+fs.mkdirSync('example_sync/first/second/third/fourth/fifth', 0777, true);
