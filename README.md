@@ -2,4 +2,5 @@ node-fs is an extension to the original [nodejs](http://nodejs.org) [fs library]
 
 Right now, the following new operations are supported:
 
-* mkdir(path, mode, recursive, [callback]): creates a directory recursively.
+* mkdir(path, mode, [recursive], [callback]): if the 'recursive' parameter is true, creates a directory recursively;
+* mkdirSync(path, mode, [recursive]): if the 'recursive' parameter is true, synchronously creates a directory recursively.
