@@ -6,7 +6,7 @@ var fs = require('./lib/fs');
 //
 // Example with non-recursion.
 //
-fs.mkdir('example_dir/first/second/third/fourth/fifth', 0777, function (err) {
+fs.mkdir('/tmp/example_dir/first/second/third/fourth/fifth', 0777, function (err) {
   if (err) {
     console.log(err);
   } else {
@@ -18,7 +18,7 @@ fs.mkdir('example_dir/first/second/third/fourth/fifth', 0777, function (err) {
 // Example with recursion -- notice the parameter
 // right before the callback function.
 //
-fs.mkdir('example_dir/first/second/third/fourth/fifth', 0777, true, function (err) {
+fs.mkdir('/tmp/example_dir/first/second/third/fourth/fifth', 0777, true, function (err) {
   if (err) {
     console.log(err);
   } else {
@@ -28,4 +28,5 @@ fs.mkdir('example_dir/first/second/third/fourth/fifth', 0777, true, function (er
 
 //
 // Synchronous example with recursion.
-fs.mkdirSync('example_sync/first/second/third/fourth/fifth', 0777, true);
+//
+fs.mkdirSync('/tmp/example_sync/first/second/third/fourth/fifth', 0777, true);
