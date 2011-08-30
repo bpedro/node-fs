@@ -6,7 +6,7 @@
 
   "repository": {
     "type" : "git",
-    "url": "git@github.com:bpedro/node-fs.git"
+    "url": "git://github.com/bpedro/node-fs.git"
   },
 
   "os": [ "linux", "darwin", "freebsd" ],
