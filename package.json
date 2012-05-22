@@ -9,6 +9,8 @@
     "url": "git://github.com/bpedro/node-fs.git"
   },
 
+  "os": [ "linux", "darwin", "freebsd", "win32" ],
+
   "devDependencies": {
     "expresso": "*"
   },
