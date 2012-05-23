@@ -4,3 +4,5 @@ Right now, the following new operations are supported:
 
 * mkdir(path, mode, [recursive], [callback]): if the 'recursive' parameter is true, creates a directory recursively;
 * mkdirSync(path, mode, [recursive]): if the 'recursive' parameter is true, synchronously creates a directory recursively.
+
+[![Build Status](https://secure.travis-ci.org/bpedro/node-fs.png?branch=master)](http://travis-ci.org/bpedro/node-fs)
