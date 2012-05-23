@@ -1,7 +1,7 @@
 {
   "name": "node-fs",
   "description": "node-fs is an extension to the original nodejs fs library, offering new functionalities.",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "author": "Bruno Pedro <bpedro@tarpipe.com>",
 
   "repository": {
